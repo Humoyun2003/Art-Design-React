@@ -1,0 +1,9 @@
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../Assets/Images/banner-bg.jpg) center/cover no-repeat fixed;
+    /* background-image: url(../images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  */
+}

@@ -1,0 +1,54 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 9%;
+}
+.banner-title {
+    font-size: 5rem;
+    font-family: var(--Playfair);
+    line-height: 1.2;
+}
+.banner-title span {
+    font-family: var(--Playfair);
+    color: var(--exDark);
+}
+.banner p {
+    padding: 1rem 0 2rem 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-family: var(--Roboto);
+    font-weight: 300;
+    word-spacing: 2px;
+}
+.banner form {
+    background: #fff;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+.search-input {
+    font-family: var(--Roboto);
+    font-size: 1.2rem;
+    outline: none;
+    padding: 0.6rem 0;
+    border: none;
+}
+.search-input::placeholder {
+    text-transform: capitalize;
+}
+.search-btn {
+    width: 40px;
+    font-size: 1.2rem;
+    color: var(--dark);
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
